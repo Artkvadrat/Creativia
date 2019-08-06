@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header style="background: black">
+        <nav class="myContainer">
             <div class="logo">
                 <p>Creativia</p>
             </div>
@@ -48,7 +48,7 @@
 
     <section id="AboutSection">
         <h2>about <span class="red">creativia</span></h2>
-        <p style="padding-bottom: 48px;">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit
+        <p id="aboutInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit
                                                                                                 .</span> Vestibulum
                      elementum
            mauris ac erat eleifend
@@ -177,7 +177,7 @@
     </section>
     <section id="productFeatures">
         <h3>our <span class="red">product features</span></h3>
-        <p id="productFeaturesFirstText">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit
+        <p id="productFeaturesFirstInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit
                                                                                                  .</span> Integer sed magna vel
             velit
            dignissim luctus eu in urna. Dapibus egestas turpis.</p>
@@ -392,9 +392,8 @@
 
     <section id="ourServicesSection">
         <h3>our <span class="red">Services</span></h3>
-        <p id="ourServicesInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span>Integer
-                             sed magna velvelit
-           dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+        <p id="ourServicesInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span>
+                                Integer sed magna velvelit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
         <div class="container">
             <div class="row" style="margin-bottom: 58px;">
                 <div class="col-md-6 ourServicesBlocks" id="serviceFirst" onmouseenter="development()"
@@ -458,7 +457,7 @@
 
     <section id="plansBestsellers">
         <h3>Plans <span class="red">Bestsellers</span></h3>
-        <p id="ourPlansInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span>Integer
+        <p id="ourPlansInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer
                              sed magna velvelit
            dignissim luctus eu in urna. Dapibus egestas turpis.</p>
         <div class="container">
@@ -517,12 +516,60 @@
                 </div>
             </div>
         </div>
-        <div class="twitter">
-            <img src="images/twitterRed.png" alt="twitter">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
-            <div id="endPlans">
-            <p><img src="images/scroll-bar-red.png" alt=""></p>
+        <div style="background: #272727">
+            <div class="myContainer">
+                <div class="twitter">
+                    <img src="images/twitterRed.png" alt="twitter">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis. </p>
+                    <div id="endPlans">
+                        <p><img src="images/scroll-bar-red.png" alt=""></p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section id="blogSection">
+        <h3>our <span class="red">Blog</span></h3>
+        <p id="ourBlogInfo">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer
+                             sed magna velvelit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+        <div class="container">
+            <div class="row message">
+                <div class="col-md-4">
+                    <img src="images/blogImgOne.png" alt="Blog image" style="width: 100%; height: 100%;">
+                </div>
+                <div class="col-md-8 messageInfo">
+                    <p style="color:#2e2e2e;">Lorem ipsum dolor sit amet, consectetur </p>
+                    <div class="line messageLine">
+                        <img src="images/admin.png" alt="admin">
+                        <p>admin</p>
+                        <img src="images/comment.png" alt="comment">
+                        <p>1205</p>
+                        <img src="images/view.png" alt="view">
+                        <p>1205</p>
+                    </div>
+                    <p>Integer ornare libero nisi. Duis ac magna urna. Nulla facilisi. Phasellus at ante magna. Quisque nec porta nulla. Suspendisse nec orci vel elit aliquet blandit in non orci. Vivamus posuere dui eget lacinia rutrum. Cum sociis natoque penatibus ...</p>
+                    <button class="messageButton">VIEW MORE</button>
+                </div>
+            </div>
+            <div class="row message">
+                <div class="col-md-4">
+                    <img src="images/blogImgTwo.png" alt="Blog image" style="width: 100%; height: 100%;">
+                </div>
+                <div class="col-md-8 messageInfo">
+                    <p style="color:#2e2e2e;">Lorem ipsum dolor sit amet, consectetur </p>
+                    <div class="line messageLine">
+                        <img src="images/admin.png" alt="admin">
+                        <p>admin</p>
+                        <img src="images/comment.png" alt="comment">
+                        <p>1205</p>
+                        <img src="images/view.png" alt="view">
+                        <p>1205</p>
+                    </div>
+                    <p>Integer ornare libero nisi. Duis ac magna urna. Nulla facilisi. Phasellus at ante magna. Quisque nec porta nulla. Suspendisse nec orci vel elit aliquet blandit in non orci. Vivamus posuere dui eget lacinia rutrum. Cum sociis natoque penatibus ...</p>
+                    <button class="messageButton">VIEW MORE</button>
+                </div>
+            </div>
         </div>
     </section>
 
