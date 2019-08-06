@@ -751,6 +751,7 @@ a.productFeaturesImg {
     border-left: solid 1px #a4a4a4;
     border-right: solid 1px #a4a4a4;
     transform: rotate(30deg);
+    transition: 0.5s;
 }
 
 .hexagonThree:before,
@@ -765,18 +766,21 @@ a.productFeaturesImg {
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
     left: 7.4939px;
+    transition: 0.5s;
 }
 
 .hexagonThree:before {
     top: -20.5061px;
     border-top: solid 1.4142px #a4a4a4;
     border-right: solid 1.4142px #a4a4a4;
+    transition: 0.5s;
 }
 
 .hexagonThree:after {
     bottom: -20.5061px;
     border-bottom: solid 1.4142px #a4a4a4;
     border-left: solid 1.4142px #a4a4a4;
+    transition: 0.5s;
 }
 .hexagonThree img{
     position: relative;
@@ -794,6 +798,7 @@ a.productFeaturesImg {
     background-color: #343434;
     text-align: justify;
     color: #8f8f8f;
+    transition: 0.5s;
 }
 #serviceFirst:hover p, #serviceSecond:hover p, #serviceThird:hover p, #serviceFourth:hover p, #serviceFifth:hover p, #serviceSixth:hover p{
     background-color: #3d2329;
@@ -857,6 +862,7 @@ a.productFeaturesImg {
     line-height: 90px;
     background-color: #f2f2f2;
     margin: 0;
+    transition: 0.5s;
 }
 .planBlock p{
     height: 51px;
@@ -876,6 +882,7 @@ a.productFeaturesImg {
     color: white;
     background-color: #262626;
     border: 0;
+    transition: 0.5s;
 }
 .planBlock:hover h1{
     background-color: #ff0036;
@@ -939,6 +946,7 @@ a.productFeaturesImg {
     background: #262626;
     line-height: 40px;
     color: white;
+    transition: 0.5s;
 }
 .message{
     margin-bottom: 50px!important;
@@ -946,4 +954,136 @@ a.productFeaturesImg {
 .message:hover .messageButton{
     background: #ff0036;
     transition: 0.5s;
+}
+#followSection{
+    padding-top: 100px;
+    background-image: url("images/woman-in-red.png");
+    text-align: center;
+}
+#followSection h3{
+    color: white;
+}
+.followContainer{
+    margin: 50px auto 0 auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.hexagonFour {
+    position: relative;
+    width: 66px;
+    height: 38.11px;
+    line-height: 38.11px;
+    background-color: rgba(0,0,0,0);
+    margin: 19.05px 0;
+    border-left: solid 1px #ff0036;
+    border-right: solid 1px #ff0036;
+    transform: rotate(-30deg);
+    transition: 0.5s;
+}
+
+.hexagonFour:before,
+.hexagonFour:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 46.67px;
+    height: 46.67px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 8.6655px;
+}
+
+.hexagonFour:before {
+    top: -23.3345px;
+    border-top: solid 1.4142px #ff0036;
+    border-right: solid 1.4142px #ff0036;
+}
+
+.hexagonFour:after {
+    bottom: -23.3345px;
+    border-bottom: solid 1.4142px #ff0036;
+    border-left: solid 1.4142px #ff0036;
+}
+.hexagonFour img{
+    margin: 0 auto;
+    transform: rotate(30deg);
+    position: relative;
+    z-index: 5;
+    transition: 0.5s;
+}
+.socialLinkBlock p{
+    margin-top: 40px;
+    color: white;
+}
+#socialLinkBlockFirst:hover .hexagonFour, #socialLinkBlockSecond:hover .hexagonFour, #socialLinkBlockThird:hover .hexagonFour, #socialLinkBlockFourth:hover .hexagonFour{
+    background-color: #ff0036;
+    transition: 0.5s;
+}
+#endSocial{
+    text-align: center;
+    margin-top: 100px;
+}
+#endSocial img{
+    margin-bottom: -19px;
+}
+
+
+#Map{
+    padding-top: 100px;
+    text-align: center;
+}
+#mapInfo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    line-height: 1.375;
+}
+#formBlock{
+    background: url("images/map.png") no-repeat;
+    padding-top: 100px;
+}
+.form {
+    background: white;
+}
+.form p{
+    margin-top: 50px;
+    font-size: 18.261px;
+    color: rgb(38, 38, 38);
+    text-transform: uppercase;
+    line-height: 2.683;
+    -moz-transform: matrix( 1.0953488372093,0,0,1.0952380952381,0,0);
+    -webkit-transform: matrix( 1.0953488372093,0,0,1.0952380952381,0,0);
+    -ms-transform: matrix( 1.0953488372093,0,0,1.0952380952381,0,0);
+}
+.form label{
+    width: 80%;
+    margin-bottom: 0;
+}
+.formInput {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.textarea{
+    width: 100%;
+    height: 90px;
+}
+.submit{
+    text-align: right;
+}
+.submit button{
+    width: 120px;
+    height: 40px;
+    margin-right: 75px;
+    color: white;
+    background-color: #262626;
+    line-height: 40px;
+    border: 0;
 }

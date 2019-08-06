@@ -37,6 +37,7 @@ function rightButton() {
 }
 function development() {
     let elem = document.getElementById("development");
+    console.log(elem);
     elem.src = "images/developmentWhite.png";
 }
 function developmentTwo() {
@@ -72,4 +73,28 @@ function layout() {
 }
 function layoutTwo() {
     document.getElementById("layout").src = "images/layoutBlack.png";
+}
+function facebook() {
+    document.getElementById("facebook").src = "images/facebookLink.png";
+}
+function facebookTwo() {
+    document.getElementById("facebook").src = "images/facebookLinkRed.png";
+}
+function twitter() {
+    document.getElementById("twitter").src = "images/twitterLink.png";
+}
+function twitterTwo() {
+    document.getElementById("twitter").src = "images/twitterLinkRed.png";
+}
+function pinterest() {
+    document.getElementById("pinterest").src = "images/pinterestLink.png";
+}
+function pinterestTwo() {
+    document.getElementById("pinterest").src = "images/pinterestLinkRed.png";
+}
+function google() {
+    document.getElementById("google").src = "images/googleLink.png";
+}
+function googleTwo() {
+    document.getElementById("google").src = "images/googleLinkRed.png";
 }
